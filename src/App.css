@@ -15,6 +15,7 @@
 .title {
   margin-top: 0px;
   margin-bottom: 0px;
+  color: white;
 }
 .titleSmall {
   margin-top: 0px;
@@ -93,6 +94,20 @@ footer a {
   background: #4aed88;
 }
 
+.editorLeaveBtn {
+  width: 100px;
+  margin-left: auto;
+  width: 100%;
+  margin-top: 20px;
+  background: #4aed88;
+}
+
+.editorLeaveBtn:hover {
+  color: black;
+  border: solid black;
+  background: red;
+}
+
 .createInfo {
   margin: 0 auto;
   margin-top: 20px;
@@ -115,16 +130,17 @@ footer a:hover {
 .mainWrap {
   display: grid;
   grid-template-columns: 230px 1fr;
+  height: 100vh;
 }
 
-.aside {
+.sideBar {
   background: #1c1e29;
   padding: 16px;
   color: #fff;
   display: flex;
   flex-direction: column;
 }
-.asideInner {
+.innerSideBar {
   flex: 1;
 }
 
@@ -140,6 +156,7 @@ footer a:hover {
   align-items: center;
   flex-direction: column;
   font-weight: bold;
+  color: white;
 }
 .userName {
   margin-top: 10px;
@@ -151,7 +168,8 @@ footer a:hover {
 }
 
 .logoImage {
-  height: 60px;
+  height: 90px;
+  align-self: center;
 }
 
 .leaveBtn {
@@ -163,4 +181,8 @@ footer a:hover {
   font-size: 20px;
   line-height: 1.6;
   padding-top: 20px;
+}
+
+.editorTitle {
+  border-bottom: outset white;
 }
